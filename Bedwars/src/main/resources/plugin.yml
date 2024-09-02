@@ -1,0 +1,14 @@
+name: Bedwars
+
+depend: [GuiCore]
+author: Alexander Anokhin
+website: http://www.allcraft.online
+main: online.allcraft.bedwars.Bedwars
+
+commands:
+  
+permissions:
+  bedwars.*:
+    description: Allows access to all features of bedwars minigame
+version: 0.5
+description: Bedwars Minigame

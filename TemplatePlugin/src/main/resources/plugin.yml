@@ -1,0 +1,22 @@
+name: TemplatePlugin
+
+author: Alexander Anokhin
+website: http://www.allcraft.online
+main: online.allcraft.templateplugin.Template
+
+commands:
+   template:
+     description: Template Command
+     usage: /template <required> [optional]
+     aliases: [templ, tmplt]
+     permission: templateplugin.command
+     permission-message: &cYou do not have the permissions to use this command!
+permissions:
+  templateplugin.*:
+    description: Template Permission
+    children: 
+      templateplugin.command: true
+  templateplugin.command:
+    description: Template Child Permission
+version: 0.1
+description: TemplatePlugin

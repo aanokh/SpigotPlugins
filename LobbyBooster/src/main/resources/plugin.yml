@@ -1,0 +1,7 @@
+name: LobbyBooster
+
+author: Alexander Anokhin
+website: http://www.allcraft.online
+main: online.allcraft.lobbyBooster.Main
+version: 0.1
+description: Used for booster plates in lobbies

@@ -1,0 +1,9 @@
+name: PlayerDispatcher
+
+author: Alexander Anokhin
+website: http://www.allcraft.online
+main: online.allcraft.playerDispatcher.PlayerDispatcher
+depend: ['GuiCore']
+
+version: 0.1
+description: The lobby side of the player redirection pipeline

@@ -1,0 +1,23 @@
+name: MinigameZombies
+
+author: Alexander Anokhin
+website: http://www.allcraft.online
+main: online.allcraft.zombies.Zombies
+depend: [GunsCore]
+
+commands:
+  zombies:
+    description: Main command
+    usage: /zombies <subcommand> [parameter]
+    aliases: [z, zo, mz]
+    permission: zombies.command
+    permission-message: &cYou do not have the permissions to use this command!
+permissions:
+  zombies.*:
+    description: Allows access to all features of zombies minigame
+    children:
+      zombies.command: true
+  zombies.command:
+    description: Allows access to the /zombies command
+version: 0.1
+description: Zombies Minigame

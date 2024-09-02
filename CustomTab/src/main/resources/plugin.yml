@@ -1,0 +1,7 @@
+name: CustomTab
+
+author: Alexander Anokhin
+website: http://www.allcraft.online
+main: online.allcraft.customTab.CustomTab
+version: 0.1
+description: Creates a custom and configurable tab list

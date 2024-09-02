@@ -1,0 +1,25 @@
+name: HubProtector
+
+author: Alexander Anokhin
+website: http://www.allcraft.online
+main: online.allcraft.hubProtector.HubProtector
+
+commands:
+   protectionToggle:
+     description: Toggles block protection
+     usage: /protectionToggle
+     aliases: [protection, protectionT, pt, ptoggle, protectionToggle, blockBreakToggle, protT, breakT]
+     permission: hubProtector.toggle
+     permission-message: &cYou do not have the permissions to use this command!
+permissions:
+  hubProtector.*:
+    description: Allows access to all functions of HubProtector
+    children:
+      hubProtector.toggle: true
+      hubProtector.exempt: true
+  hubProtector.toggle:
+    description: Allows you to use /hubProtectionToggle
+  hubProtector.exempt:
+    description: Allows you to bypass hub protection
+version: 0.1
+description: A simple plugin used to prevent users from griefing

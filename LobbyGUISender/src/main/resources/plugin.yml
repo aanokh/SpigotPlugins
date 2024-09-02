@@ -1,0 +1,11 @@
+name: LobbyGUISender
+
+author: Alexander Anokhin
+website: http://www.allcraft.online
+main: online.allcraft.lobbyGUISender.LobbyGUISender
+
+permissions:
+  lobbygui.*:
+    description: Allows access to all features of LobbyGUISender
+version: 0.1
+description: Prototype plugin to dispatch UDP information for the Lobby GUI Menu

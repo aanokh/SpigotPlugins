@@ -1,0 +1,9 @@
+name: GunsCore
+
+author: Alexander Anokhin
+website: http://www.allcraft.online
+main: online.allcraft.gunsCore.GunsCore
+description: A Gun API used by many Allcraft minigames
+depend: [ProtocolLib]
+
+version: 0.2

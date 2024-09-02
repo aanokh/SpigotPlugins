@@ -1,0 +1,7 @@
+name: GuiCore
+
+author: Alexander Anokhin
+website: http://www.allcraft.online
+main: online.allcraft.guiCore.GuiCore
+version: 0.1
+description: A GUI API used by many Allcraft minigames
